@@ -1,0 +1,40 @@
+/* Eric Camarillo
+	5/5/20*/
+
+  body
+  {
+	background-color: lightyellow;
+  text-align: center;
+	}
+
+
+  h1
+  {
+    color: rgb(0, 150, 255);
+  }
+
+
+	section
+  {
+	color: black;
+	text-align: center;
+  font-size:  150%;
+	width: 100%;
+
+	}
+
+
+/*nav bar customization*/
+  a
+  {
+    outline: none;
+    text-decoration: none;
+    font-size: 145%;
+    padding: 2px 1px 0;
+    background: lightblue;
+  }
+
+  a:hover
+  {
+    background: yellow;
+  }
