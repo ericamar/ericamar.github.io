@@ -2,13 +2,17 @@
 
 <!-- Eric Camarillo -->
 <!-- 5/10/20 -->
-<!-- FILENAME: index.html -->
+<!-- FILENAME: about.html -->
 
 <html lang = "en">
 	<head>
 		<!-- Required meta tags -->
        <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   
+	    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/d88d8d3979.js" crossorigin="anonymous"></script>
 
 		<title>
 		About Eric
@@ -22,30 +26,46 @@
 	
 	<body class = flex-container>
 
-		<!--navigaion bar-->
-		<a href = "index.html">Home</a>
-		<a href = "about.html">About</a>
-		<a href = "contact.html">Contact</a>
+		<!--Navigation bar-->
+		<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+			<div class="mx-auto">
+				<a href="index.html"><i class="fas fa-home"></i>Home</a>
+				<a href="about.html"><i class="fas fa-info-circle"></i>About</a>
+				<a href="contact.html"><i class="fas fa-address-book"></i>Contact</a>
+			</div>
+		</nav>
+				
+		<h1>
+			About Eric
+		</h1>
 
 
-		<section>
-			<header>
-				<h1>
-				About Eric
-				</h1>
-			</header>
+		<div class = about-information>
+			<img src = "young me.jpg" alt = "A picture of young Eric." width = 25%>	
+  
+			<h2>
+				I started attending college (for Computer Science) because I wanted to take an opportunity which other people in my family did not have. Now, it's time to make a career out of it!
+			</h2>
+		</div>
 
-			<p>
-					We started by wanting to help out a small community of musicians as much as we could. Over time, our first small store expanded to more local stores. Eventually, we were able to scale across the nation. Now we are the topseller for selling music gear online!
-			</p>
+		<div class = about-information>
+			<img class="float-right" src = "studio.jpg" alt = "A picture of someone's music studio." width = 25%>	
+  
+			<h2>
+				When I'm not working or tending to school projects, I'm usually programming, playing video games, or making music. 
+			</h2>
+		</div>
 
-			<img src = "musicplugins.jpg" alt = "This is a picture music plugins." width = 500>
-
-		</section>
-
-		<footer>
-		<p>&copy; Eric Camarillo</p>
-	    </footer>
+        <!--Footer-->
+          
+		<footer class = "small-footer">
+        
+			<a href="mailto:camarilloeric58@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+			<a href="https://www.linkedin.com/in/eric-camarillo-10b041186/"><i class="fab fa-linkedin fa-2x"></i></a>
+			<a href="https://www.facebook.com/generic.eric.eric"><i class="fab fa-facebook-square fa-2x"></i></a>
+			<a href="https://github.com/ericamar/"><i class="fab fa-github-square fa-2x"></i></a>
+			<p>&copy; Eric Camarillo</p>
+		</footer>
 
 	</body>
 </html>
